@@ -1,0 +1,12 @@
+[theme]
+base = "light"
+primaryColor = "#4F6BED"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# 認証を持たないアプリなので、外部からは繋げないようにする。
+# 既定では全インターフェースに待ち受けるため、同じネットワークの他人が
+# ブラウザから開けてしまう（APIキーの利用と履歴の閲覧を許すことになる）。
+address = "localhost"
